@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/5.10.2/main.min.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-logo">
+            <a href="index.html">
+                <img src="assets/navlogo.png" alt="Logo" class="navbar-logo">
+            </a>
+        </div>
+        <div class="navbar-links">
+            <a href="about.html">About</a>
+            <a href="menu.html">Our Menu</a>
+            <a href="#calendar">Event Calendar</a>
+            <!-- socials --> 
+            <div class="navbar-icons">
+                <a href="https://www.instagram.com/sipnplaynyc/?hl=en" target="_blank"><img src="assets/insta.svg" alt="Instagram"></a>
+                <a href="https://www.tiktok.com/@sipnplaynycofficial" target="_blank"><img src="assets/tiktok.svg" alt="Tiktok"></a>
+            </div>
+        </div>
+    </div>
+                <!-- intro --> 
+    <div class="content">
+        <div class="container">
+            <div class="text-area">
+                <h2>PARK SLOPE'S FIRST BOARDGAME CAFE</h2>
+                <p>COFFEE, BOBA, BEER, FOOD, AND GAMES ALL UNDER ONE ROOF: SIP & PLAY!</p>
+                <p>New opening hours!</p>
+                <p>Sunday: 10am-11pm<br>
+                   Mon-Thurs: 11am-11pm<br>
+                   Fri: 11am-midnight<br>
+                   Sat: 10am-midnight</p>
+                <p>471 5th Ave.<br>
+                   Brooklyn, NY 11215<br>
+                   sipnplaynyc@gmail.com<br>
+                   718-971-1684</p>
+            </div>
+            <div class="image-area">             <!-- img --> 
+                <img id="dice-image" src="assets/dice.png" alt="dice.png">
+            </div>
+        </div>
+                    <!-- wrap calender --> 
+        <div class="calendar-container">
+            <div class="text-areatwo">
+                <h2>EVENTS</h2>
+            </div>
+            <div id="calendar"></div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; Sip & Play NYC</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/5.10.2/main.min.js"></script>
+    <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.14/index.global.min.js'></script>
+</body>
+</html>

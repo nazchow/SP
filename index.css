@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web&display=swap');
+
+/* nav links */
+a {
+  font-weight: 700;
+  color:  rgb(82, 47, 47);
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #41ac82;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  background-color: #F4F3E7;
+  flex-direction: column;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1, h2 {
+  font-size: 2em;
+  line-height: 1.1;
+  font-weight: 700;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #F4F3E7;
+}
+
+
+.container {
+  display: flex;
+  background-color: #F4F3E7;
+  flex-direction: row;
+  width: 80%;
+  max-width: 1200px;
+  margin: 60px;
+  padding-top: 80px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-area {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  line-height: 1.5;
+  font-family: 'Istok Web', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  background-color: #FFF;
+  border-radius: 15px;
+  padding: 20px;
+  margin-right: 20px;
+  box-shadow: 0 4px 6px rgba(31, 26, 26, 0.1);
+}
+
+.image-area {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#dice-image {
+  width: 300px;
+  height: auto;
+  border-radius: 15px;
+}
+
+.calendar-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #c0d3b0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#calendar {
+  font-family: 'Istok Web', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  background-color: #d2e2d1;
+  padding: 10px;
+  border-radius: 15px;
+  margin: 10px;
+}
+
+.text-areatwo {
+  text-align: center;
+  font-family: 'Syne', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #FFF;
+  background-color: rgb(82, 47, 47);
+  border-radius: 15px;
+  padding: 20px;
+}

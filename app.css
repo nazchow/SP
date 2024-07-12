@@ -1,0 +1,59 @@
+
+/* NAV */
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web&display=swap');
+
+.navbar {
+  margin: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F4F3E7;
+  padding: 10px 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 1px solid #6a4545;
+  font-weight: 800;
+  transition: top 0.3s; /* Smooth transition */
+}
+
+.navbar-links {
+  font-family: 'Syne', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 0 10px;
+  font-size: 0.9rem; /* Make text smaller */
+  padding: 8px 16px; /* Adjust padding */
+  display: flex;
+  gap: 20px;
+  text-decoration: none;
+  color: #6a4545;
+}
+
+.navbar-icons {
+  margin: 0 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.navbar-links a, .navbar-icons a {
+  text-decoration: none;
+  color: #6a4545;
+  font-weight: 800;
+}
+.navbar-links a:hover {
+  color: #A0B583; /* Change this to the desired hover color */
+}
+.navbar-logo {
+  height: 70px;
+  margin-left: 13px;
+}
+
+.navbar-icons img {
+  height: 24px;
+  width: 24px;
+}
+
+

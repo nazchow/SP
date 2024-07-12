@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700&family=Istok+Web:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="app.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three/examples/js/loaders/GLTFLoader.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-logo">
+            <a href="index.html">
+                <img src="assets/navlogo.png" alt="Logo" class="navbar-logo">
+            </a>
+        </div>
+        <div class="navbar-links">
+            <a href="about.html">About</a>
+            <a href="menu.html">Our Menu</a>
+            <a href="index.html">Event Calendar</a>
+            <div class="navbar-icons">
+                <a href="https://www.instagram.com/sipnplaynyc/?hl=en" target="_blank"><img src="assets/insta.svg" alt="Instagram"></a>
+                <a href="https://www.tiktok.com/@sipnplaynycofficial" target="_blank"><img src="assets/tiktok.svg" alt="Tiktok"></a>
+            </div>
+        </div>
+    </div>
+    <header>
+        <h1>Menu</h1>
+    </header>
+    <nav>
+        <a href="#">Drinks</a>
+        <a href="#">Hot Bites</a>
+        <a href="#">Sandwiches & Salads</a>
+        <a href="#">Seasonal Menu</a>
+    </nav>
+    <!-- for the 3d model -->
+    <div class="container">
+        <div class="featured-items">
+            <h2>Featured Items</h2>
+            <div class="items">
+                <div class="item">
+                    <img src="assets/boba.png" style="width: 300px;">
+                </div>
+                <div class="item">
+                    <img src="assets/cookie.png" style="width: 300px;">
+                </div>
+            </div>
+        </div>
+        <div class="menu-section">
+            <h2>Drinks</h2>
+            <h3 class="centered-heading">COFFEE</h3>
+            <div class="menu-columns">
+                <div class="menu-column">
+                    <h3>Latte</h3>
+                    <p>$4.75 (H) / $5.25 (C)</p>
+                    <h3>Cortado</h3>
+                    <p>$4.25 (H) / $4.75 (C)</p>
+                    <h3>Drip Coffee</h3>
+                    <p>Small: $3 (H) / $3.50 (C)</p>
+                    <p>Medium: $3.50 (H)</p>
+                    <p>Large: $4 (H) / $4.25 (C)</p>
+                    <h3>Cafe au Lait</h3>
+                    <p>$3.25 (H)</p>
+                </div>
+                <div class="menu-column">
+                    <h3>Cappuccino</h3>
+                    <p>$4.50 (H)</p>
+                    <h3>Mocha</h3>
+                    <p>$5.75 (H) / $6.25 (C)</p>
+                    <h3>Red Eye</h3>
+                    <p>$4.50 (H) / $4.75 (C)</p>
+                    <h3>Americano</h3>
+                    <p>$3.75 (H) / $4.25 (C)</p>
+                </div>
+            </div>
+            <h3 class="centered-heading">BOBA</h3>
+            <div class="menu-columns">
+                <div class="menu-column">
+                    <h3>The OG</h3>
+                    <p>Medium: $4.25</p>
+                    <p>Large: $5.25</p>
+                    <p>Hot: $5.25</p>
+                    <p>Classic milk tea</p>
+
+                    <h3>Brown Sugar Boba</h3>
+                    <p>Medium: $4.75</p>
+                    <p>Large: $5.75</p>
+                    <p>Hot: $5.75</p>
+                    <p>Caffeine free</p>
+
+                    <h3>Taro Boba / Coconut Boba</h3>
+                    <p>Medium: $4.25</p>
+                    <p>Large: $5.25</p>
+                    <p>Hot: $5.25</p>
+                    <p>Caffeine free, dairy free</p>
+                </div>
+                <div class="menu-column">
+                    <h3>Fruit Green/Black Tea</h3>
+                    <p>Medium: $4.25</p>
+                    <p>Large: $5.25</p>
+                    <p>Comes in a variety of flavors:</p>
+                    <p>mango/strawberry/passionfruit/</p>
+                    <p>peach/green apple/lychee/kiwi</p>
+                    <p>Feel free to mix and match!</p>
+
+                    <h3>Fruit Black Tea</h3>
+                    <p>Medium: $4.25</p>
+                    <p>Large: $5.25</p>
+                    <p>Comes in a variety of flavors:</p>
+                    <p>peach/strawberry</p>
+                    <p>Feel free to mix and match!</p>
+
+                    <h3>Jasmine Milk Tea / Wintermelon Milk Tea</h3>
+                    <p>Medium: $4.25</p>
+                    <p>Large: $5.25</p>
+                    <p>Hot: $5.25</p>
+                    <p>Dairy free</p>
+                </div>
+            </div>
+            <h3 class="centered-heading">SPECIALTY DRINKS</h3>
+            <div class="menu-columns">
+                <div class="menu-column">
+                    <h3>Matcha Latte</h3>
+                    <p>$5.25 (H) / $5.75 (C)</p>
+
+                    <h3>Hot Chocolate</h3>
+                    <p>$4.50 (H)</p>
+                    <p>S'mores: $5.50</p>
+
+                    <h3>Nutella Latte</h3>
+                    <p>$5.75 (H) / $6.25 (C)</p>
+                </div>
+                <div class="menu-column">
+                    <h3>Lavender Latte</h3>
+                    <p>$5.75 (H) / $6.25 (C)</p>
+
+                    <h3>Rose Latte</h3>
+                    <p>$5.75 (H) / $6.25 (C)</p>
+
+                    <h3>Brown Sugar Latte</h3>
+                    <p>$5.75 (H) / $6.25 (C)</p>
+                </div>
+            </div>
+            <h2>HOT BITES</h2>
+            <div class="menu-columns">
+                <div class="menu-column">
+                    <h3>Chicken Poppers</h3>
+                    <p>$6.00</p>
+
+                    <h3>Mozz Sticks</h3>
+                    <p>$7.00</p>
+                </div>
+                <div class="menu-column">
+                    <h3>Pigs in a Blanket</h3>
+                    <p>$7.00</p>
+
+                    <h3>Tater Tots</h3>
+                    <p>$5.00</p>
+                </div>
+            </div>
+            <h2>SANDWICHES & SALADS</h2>
+            <div class="menu-columns">
+                <div class="menu-column">
+                    <h3>Beyond Bussin Sandwich</h3>
+                    <p>$15.00</p>
+                    <p>new VEGAN sandwich highlighting the beyond burger and our house-made vegan chipotle aioli alongside lettuce, onion, and avocado.</p>
+                    <p>Comes with a side of our house-made chipotle aioli and chips</p>
+
+                    <h3>Mixed Green Salad</h3>
+                    <p>$6.50</p>
+                    <p>w/tomato, vegan</p>
+                    <p>+smoked salmon: $5.00</p>
+                    <p>+boiled egg: $1.00</p>
+                    <p>+avocado: $1.50</p>
+                </div>
+                <div class="menu-column">
+                    <h3>Cobb Salad</h3>
+                    <p>$10.00</p>
+                    <p>Romaine lettuce, bacon, egg, chicken, tomato, and avocado tossed with ranch</p>
+
+                    <h3>Pizza Panini</h3>
+                    <p>$11.00</p>
+                    <p>Pepperoni, fresh mozzarella, marinara, and olive oil on Italian herb focaccia and pressed to perfection!</p>
+                    <p>Comes with chips</p>
+                </div>
+            </div>
+            <h2>SEASONAL MENU</h2>
+            <div class="menu-columns">
+                <div class="menu-column">
+                    <h3>Matcha Lavender Oat</h3>
+                    <p>$6.50</p>
+
+                    <h3>Berry Lavender Lemonade</h3>
+                    <p>Medium: $5.25</p>
+                    <p>Large: $6.25</p>
+                </div>
+                <div class="menu-column">
+                    <h3>Pina Colada</h3>
+                    <p>$4.75 (M) / $5.75 (L)</p>
+
+                    <h3>Citrus Boba (Grapefruit or Orange)</h3>
+                    <p>Large: $6.00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; Sip & Play NYC</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
+
+
