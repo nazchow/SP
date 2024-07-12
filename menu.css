@@ -19,6 +19,7 @@ header h1 {
     font-size: 2.5rem;
     margin: 0;
 }
+/* menu buttons , hover functionality */
 nav {
     display: flex;
     justify-content: center;
@@ -37,10 +38,12 @@ nav a {
 nav a:hover {
     background-color: #78d69c; 
 }
+/* container for menu */
 .container {
     width: 80%;
     margin: auto;
 }
+/* featured items, padding for spacing */
 .featured-items, .menu-section {
     background-color: #FFF;
     padding: 20px;
@@ -49,6 +52,7 @@ nav a:hover {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     
 }
+/* text */
 .featured-items h2, .menu-section h2 {
     font-family: 'Syne', sans-serif;
     font-size: 2rem;
@@ -56,10 +60,11 @@ nav a:hover {
     border-bottom: 2px solid #B2CE9A;
     padding-bottom: 10px;
 }
+/* img */
 .featured-items .items {
     display: flex;
     justify-content: center;
-    gap: 20px; /* Add some space between items */
+    gap: 20px; 
 }
 .featured-items .item, .menu-section .item {
     background-color: #FFF;
@@ -71,11 +76,11 @@ nav a:hover {
     background-color: #FFF;
     max-width: 100%;
 }
+/* vertical section for the menu */
 .menu-section .menu-columns {
     display: flex;
     justify-content: space-between;
     
-  
 }
 .menu-column {
     width: 48%; 
@@ -87,9 +92,10 @@ nav a:hover {
     
 }
 .menu-column p {
-    margin: 0 0 10px; /* fix width */
+    margin: 0 0 10px;
     
 }
+/* title menu */
 .centered-heading {
     text-align: center;
     margin: 20px 0;

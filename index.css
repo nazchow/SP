@@ -1,3 +1,4 @@
+/* fonts */ 
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Istok+Web&display=swap');
 
@@ -33,7 +34,7 @@ footer {
   background-color: #F4F3E7;
 }
 
-
+/* text box */
 .container {
   display: flex;
   background-color: #F4F3E7;
@@ -64,6 +65,7 @@ footer {
   box-shadow: 0 4px 6px rgba(31, 26, 26, 0.1);
 }
 
+/* format image */
 .image-area {
   flex: 1;
   display: flex;
@@ -77,6 +79,7 @@ footer {
   border-radius: 15px;
 }
 
+/* calendar box */
 .calendar-container {
   width: 90%;
   max-width: 1200px;
@@ -87,6 +90,7 @@ footer {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+/* calendar css, text */
 #calendar {
   font-family: 'Istok Web', sans-serif;
   font-size: 1rem;

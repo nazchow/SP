@@ -16,7 +16,7 @@
   z-index: 1000;
   border-bottom: 1px solid #6a4545;
   font-weight: 800;
-  transition: top 0.3s; /* Smooth transition */
+  transition: top 0.3s; /* transition */
 }
 
 .navbar-links {
@@ -24,8 +24,8 @@
   line-height: 1.5;
   font-weight: 400;
   margin: 0 10px;
-  font-size: 0.9rem; /* Make text smaller */
-  padding: 8px 16px; /* Adjust padding */
+  font-size: 0.9rem; 
+  padding: 8px 16px; 
   display: flex;
   gap: 20px;
   text-decoration: none;
@@ -44,7 +44,7 @@
   font-weight: 800;
 }
 .navbar-links a:hover {
-  color: #A0B583; /* Change this to the desired hover color */
+  color: #A0B583; 
 }
 .navbar-logo {
   height: 70px;
